@@ -1,0 +1,123 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: monospace;
+}
+
+.container {
+  background-color: #333;
+  color: #fff;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app {
+  -webkit-transform: translateY(-10%);
+          transform: translateY(-10%);
+}
+
+.app__header {
+  padding: 50px 0;
+  -webkit-transform: translateX(-20%);
+          transform: translateX(-20%);
+}
+
+.app__title {
+  text-align: center;
+  font-size: 300%;
+}
+
+.app__form {
+  background-color: #555;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 4rem;
+  overflow: hidden;
+  margin-bottom: 2rem;
+}
+
+.app__input-todo {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  padding: 15px 10px;
+  color: rgb(8, 8, 8);
+  font-size: 125%;
+}
+
+.app__submit {
+  padding: 0px 15px;
+  font-weight: 900;
+  font-size: 150%;
+  cursor: pointer;
+}
+
+.app__list {
+  list-style: none;
+  height: 200px;
+  overflow-y: auto;
+}
+
+.app__todo {
+  padding: 10px;
+  border-bottom: 1px solid #444;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.app__todo .app__text {
+  font-size: 150%;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.app__todo--edit-mode {
+  padding: 0;
+}
+
+.app__todo--check {
+  color: #aaa;
+  font-weight: 600;
+}
+
+.app__todo--check .app__text {
+  text-decoration: line-through;
+}
+
+.app__del-todo {
+  padding: 2px 10px;
+  cursor: pointer;
+  font-size: 150%;
+}
+
+.app__edit-todo {
+  padding: 15px;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  font-size: 125%;
+  color: #eee;
+}
+
+.app__footer {
+  padding: 20px;
+  -webkit-transform: translate(20%, 100%);
+          transform: translate(20%, 100%);
+}
+/*# sourceMappingURL=style.css.map */
